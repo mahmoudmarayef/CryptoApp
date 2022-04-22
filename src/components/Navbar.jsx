@@ -31,7 +31,7 @@ const Navbar = () => {
       <div className='logo-container'>
         <Avatar src={icon} size='large' />
         <Typography.Title level={2} className='logo'>
-          <Link to='/'>Cryptoverse</Link>
+          <Link to='/' style={{ color: '#ffffff' }}>Cryptovio</Link>
         </Typography.Title>
         <Button className='menu-control-container' onClick={() => setActiveMenu(!activeMenu)}>
           <MenuOutlined />
@@ -45,9 +45,10 @@ const Navbar = () => {
           <Menu.Item icon={<FundOutlined />}>
             <Link to='/cryptocurrencies'>Cryptocurrencies</Link>
           </Menu.Item>
-          <Menu.Item icon={<MoneyCollectOutlined />}>
+          {/* Exchanges only works in the pro version of the api */}
+          {/* <Menu.Item icon={<MoneyCollectOutlined />}>
             <Link to='/exchanges'>Exchanges</Link>
-          </Menu.Item>
+          </Menu.Item> */}
           <Menu.Item icon={<BulbOutlined />}>
             <Link to='/news'>News</Link>
           </Menu.Item>
