@@ -3,9 +3,10 @@ import millify from 'millify';
 import { Typography, Row, Col, Statistic } from 'antd';
 import { Link } from 'react-router-dom';
 
-import { useGetCryptosQuery } from '../services/cryptoApi';
-import { Cryptocurrencies, News } from '../components';
-import Loader from './Loader';
+import './Homepage.css';
+import { useGetCryptosQuery } from '../../services/cryptoApi';
+import { Cryptocurrencies, News } from '..';
+import Loader from '../Loader';
 
 const { Title } = Typography;
 

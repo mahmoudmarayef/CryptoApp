@@ -2,7 +2,7 @@ import React from 'react'
 import { Routes, Route, Link } from 'react-router-dom';
 import { Layout, Typography, Space } from 'antd';
 
-import { Navbar, Exchanges, Cryptocurrencies, CryptoDetails, News, Homepage } from './components';
+import { Navbar, Cryptocurrencies, CryptoDetails, News, Homepage } from './components';
 import './App.css';
 
 const App = () => {
@@ -16,7 +16,6 @@ const App = () => {
             <div className='routes'>
               <Routes>
                 <Route exact path='/' element={<Homepage />} />
-                <Route exact path='/exchanges' element={<Exchanges />} />
                 <Route exact path='/cryptocurrencies' element={<Cryptocurrencies />} />
                 <Route exact path='/crypto/:coinId' element={<CryptoDetails />} />
                 <Route exact path='/news' element={<News />} />
@@ -26,7 +25,7 @@ const App = () => {
 
           <div className='footer'>
             <Typography.Title level={5} style={{ color: 'white', textAlign: 'center' }}>
-              Cryptoverse <br />
+              Cryptovio <br />
               All rights reserved 2022
             </Typography.Title>
             <Space>
