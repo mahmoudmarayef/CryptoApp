@@ -1,5 +1,32 @@
-# Crypto App
+React Project: State of the Art Web Development
+===============================================
 
-### [Live Site](https://crypto-mahmoud.netlify.app)
+A dependency--not a boilerplate--to make your React project a delight to
+develop.
 
-![Chat Application](https://cdn.sanity.io/images/7m1xime7/production/84091bbe1d2bd502f620866460468fbed34b78ba-1366x768.png)
+This is brand new, not ready for production unless you are ready and
+willing to contribute to the project. Basically just building something
+we want here, if it interests you, please help :)
+
+Also, it has no tests. Also, it's kind of awesome.
+
+## Node/NPM Versions
+
+User PC should have Node.js installed
+
+
+
+
+## Getting Started
+
+Inside the root folder run:
+
+```sh
+npm install
+npm start
+```
+
+
+Now open [http://localhost:3000](http://localhost:3000).
+
+
